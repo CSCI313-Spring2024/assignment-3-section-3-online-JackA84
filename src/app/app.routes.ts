@@ -7,8 +7,9 @@ path: '',
 component: HomeComponent, 
 title: 'Home page', 
 }, 
+// path : details, compnent: DetailsComponent, title: 'Home Details'
 { 
-path: 'details', 
+path: 'details/:id', 
 component: DetailsComponent, 
 title: 'Home Details' 
 }, 
